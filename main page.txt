@@ -1,0 +1,244 @@
+// import React from 'react';
+// import {link} from "react-router-dom";
+// function Header(){
+//     return(
+//     <div className="Header fixed flex">
+//         <div className="logo">
+//         <img src='../ui/Saylani'/>
+//         </div>
+//         <div className="location rel flex aic ">
+//            <div className="icon-search ico s24 cfff"/>
+//                <input className="label s15 font" placeholder ="location" value="pakistan"/>
+//                {/* <button className="icon-chevron-down arrow s24"/> */}
+//                <i className="fas fa-chevron-down"></i>
+//         </div>
+//      <div className="search flex">
+//          <input type="text" placeholder="Find cars,Mobile and etc" className="query s15 font"/>
+//          <button className="icon-search go s24"/>
+
+//         </div>
+//     <div  className="action-flex aic">
+//         <button>Login</button>
+//          {/* <link to="/account/signin" className="fontb s15">Sign in</link>  */}
+//         <button className="sell">
+//             <div className="icon-plus"/>
+//                 <h2 className="s15 font">Sell</h2>
+
+//         </button>
+//     </div>
+//     </div>
+    
+
+//     );
+// }
+
+// export default Header;
+
+
+//start
+
+
+// import React from 'react';
+
+// class Header extends React.Component{
+//  render(){
+//     return(
+//       <div className="a1"></div>
+
+//     );
+// }
+// }
+
+
+// import React from 'react';
+// import Logo from '../ui/1.PNG';
+// import f1 from '../ui/ty.PNG';
+// import t1 from '../ui/t.PNG';
+
+
+
+
+// class Header extends React.Component {
+  
+//     render(){
+//         return(
+//           <div className="first">
+//             <div className="img">
+//             <img  src={t1} width="50px" alt=""/>
+//             </div>
+//            <div className="a1">
+//              <div className="A3">
+//                <div className="A4">
+
+//                  </div>{/*A4*/}
+//                <div className="a2">
+//                  <input  placeholder ="location" value="pakistan"/>
+//                </div>
+            
+//              <div className="arrow">yu</div>{/*A5*/}
+//                </div>{/*A3*/}
+                  
+//                  <input type="text" placeholder="Find cars,Mobile and etc" className="a3"/>
+//            </div>
+//            <img  className="z1" src={Logo} width="770px" alt=""/>
+//            <div className= "c0">
+//            <div className="c1">More on Motorcycles</div> {/*c1 */}
+//            <div className="c2">View all</div>{/*c2*/}
+//            <div className="c3">
+//                <div className="c4">
+//            <div className="card" style={{width: '10rem'}}>
+//         <img className="card-img-top" src="../ui/4.PNG" alt="Card image cap" />
+//         <div className="card-body">
+//           <a href="#" className="btn btn-primary">Go somewhere</a>
+//         </div>
+        
+//       </div>
+//       </div>{/*c4*/}
+//       <div className="c5">
+//            <div className="card" style={{width: '10rem'}}>
+//         <img className="card-img-top" src="../ui/1.PNG" alt="Card image cap" />
+//         <div className="card-body">
+//           <a href="#" className="btn btn-primary">Go somewhere</a>
+//         </div>
+        
+//       </div>
+//       </div>{/*c5*/}
+//       <div className="c6">
+//            <div className="card" style={{width: '10rem'}}>
+//         <img className="card-img-top" src="../ui/1.PNG" alt="Card image cap" />
+//         <div className="card-body">
+//           <a href="#" className="btn btn-primary">Go somewhere</a>
+//         </div>
+        
+//       </div>
+//       </div>{/*c6*/}
+//       <div className="c7">
+//            <div className="card" style={{width: '10rem'}}>
+//         <img className="card-img-top" src="../ui/1.PNG" alt="Card image cap" />
+//         <div className="card-body">
+//           <a href="#" className="btn btn-primary">Go somewhere</a>
+//         </div>
+        
+//       </div>
+//       </div>{/*c7*/}
+             
+             
+             
+//                </div>{/*c3*/}
+//              </div>{/*c0 main div*/}
+
+
+            
+//              <img  src={f1} width="770px" alt=""/>
+//                {/* Footer */}
+//       <footer className="page-footer font-small indigo">
+//         {/* Footer Links */}
+//         <div className="container text-center text-md-left">
+//           {/* Grid row */}
+//           <div className="row">
+//             {/* Grid column */}
+//             <div className="col-md-3 mx-auto">
+//               {/* Links */}
+//               <h5 className="font-weight-bold text-uppercase mt-3 mb-4">POPULAR CATEGORIES</h5>
+//               <ul className="list-unstyled">
+//                 <li>
+//                   <a href="#!">Very long link 1</a>
+//                 </li>
+//                 <li>
+//                   <a href="#!">Very long link 2</a>
+//                 </li>
+//                 <li>
+//                   <a href="#!">Very long link 3</a>
+//                 </li>
+//                 <li>
+//                   <a href="#!">Very long link 4</a>
+//                 </li>
+//               </ul>
+//             </div>
+//             {/* Grid column */}
+//             <hr className="clearfix w-100 d-md-none" />
+//             {/* Grid column */}
+//             <div className="col-md-3 mx-auto">
+//               {/* Links */}
+//               <h5 className="font-weight-bold text-uppercase mt-3 mb-4">TRENDING SEARCHES</h5>
+//               <ul className="list-unstyled">
+//                 <li>
+//                   <a href="#!">Link 1</a>
+//                 </li>
+//                 <li>
+//                   <a href="#!">Link 2</a>
+//                 </li>
+//                 <li>
+//                   <a href="#!">Link 3</a>
+//                 </li>
+//                 <li>
+//                   <a href="#!">Link 4</a>
+//                 </li>
+//               </ul>
+//             </div>
+//             {/* Grid column */}
+//             <hr className="clearfix w-100 d-md-none" />
+//             {/* Grid column */}
+//             <div className="col-md-3 mx-auto">
+//               {/* Links */}
+//               <h5 className="font-weight-bold text-uppercase mt-3 mb-4">ABOUT US</h5>
+//               <ul className="list-unstyled">
+//                 <li>
+//                   <a href="#!">Link 1</a>
+//                 </li>
+//                 <li>
+//                   <a href="#!">Link 2</a>
+//                 </li>
+//                 <li>
+//                   <a href="#!">Link 3</a>
+//                 </li>
+//                 <li>
+//                   <a href="#!">Link 4</a>
+//                 </li>
+//               </ul>
+//             </div>
+//             {/* Grid column */}
+//             <hr className="clearfix w-100 d-md-none" />
+//             {/* Grid column */}
+//             <div className="col-md-3 mx-auto">
+//               {/* Links */}
+//               <h5 className="font-weight-bold text-uppercase mt-3 mb-4">OLX</h5>
+//               <ul className="list-unstyled">
+//                 <li>
+//                   <a href="#!">Link 1</a>
+//                 </li>
+//                 <li>
+//                   <a href="#!">Link 2</a>
+//                 </li>
+//                 <li>
+//                   <a href="#!">Link 3</a>
+//                 </li>
+//                 <li>
+//                   <a href="#!">Link 4</a>
+//                 </li>
+//               </ul>
+//             </div>
+//             {/* Grid column */}
+//           </div>
+//           {/* Grid row */}
+//         </div>
+//         {/* Footer Links */}
+//         </footer>
+//       {/* Footer */}
+   
+
+//              <div className="footerEnd">
+//                <h6 className="n1">Other Countries India - South Africa - Indonesia</h6>
+//                <h6 className="n2">Free Classifieds in Pakistan. © 2006-2020 OLX</h6>
+//              </div>
+
+                  
+
+
+
+
+//            </div>
+//           )
+//     }
+// }
+// export default Header;

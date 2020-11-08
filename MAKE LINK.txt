@@ -1,0 +1,147 @@
+ for making links
+
+APP JS
+//  import React, {Component} from 'react';
+//  import AppRouter from './config/router'
+// import './App.css'
+// class App extends Component{
+//   render(){
+//     return(
+//       <AppRouter/>
+//     )
+//   }
+// }
+//  export default App;
+
+ABOUT JS
+
+
+
+import React from 'react'
+import { Link } from "react-router-dom";
+
+class About extends React.Component{
+
+    gotohome = () => {
+      this.props.history.push('/')
+    }
+    render(){
+        return(
+            <div>
+            <h1>About Page</h1>
+            { <Link to="/">go to home</Link> }
+            <button onClick={this.gotohome}>Go to home</button>
+            </div>
+        )
+    }
+}
+
+export default About;
+ABOUT JS
+import React from 'react'
+import { Link } from "react-router-dom";
+
+class Home extends React.Component{
+    render(){
+        return(
+            <div>
+            <h1>Home Page</h1>
+            <Link to="/about">go to about</Link>
+            </div>
+        )
+    }
+}
+
+export default Home;
+
+ROUTER JS
+import React from 'react'
+import{ BrowserRouter as Router, Route,} from "react-router-dom";
+import Home from '../containers/home'
+import About from '../containers/About'
+
+class AppRouter extends React.Component{
+    render(){
+        return(
+            <Router>
+               <Route exact path='/' component={Home}/>
+               <Route path='/about' component={About}/> 
+ 
+            </Router>
+        )
+    }
+}
+export default AppRouter;
+
+
+
+
+
+
+
+
+//search
+
+<!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!--Grid row-->
+    <div class="row">
+
+      <!--Grid column-->
+      <div class="col-md-6 mb-4">
+
+        <!-- Form -->
+        <form class="form-inline">
+          <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search"
+            aria-label="Search">
+          <i class="fas fa-search" aria-hidden="true"></i>
+        </form>
+        <!-- Form -->
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-6 mb-4">
+
+        <form class="input-group">
+          <input type="text" class="form-control form-control-sm" placeholder="Your email"
+            aria-label="Your email" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-sm btn-outline-white my-0" type="button">Sign up</button>
+          </div>
+        </form>
+
+      </div>
+      <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+
+
+
+import React from 'react'
+const Navbar=()=>{
+    return(
+        <div></div>
+    )
+}
+export default Navbar;
